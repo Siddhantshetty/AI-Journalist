@@ -1,13 +1,18 @@
-streamlit
-langchain-anthropic
+# Backend dependencies
 fastapi
+uvicorn[standard]
 python-dotenv
 beautifulsoup4
 lxml
-ollama
 elevenlabs
 aiolimiter
 langgraph
 mcp
 langchain-mcp-adapters
 gtts
+requests
+pydantic
+
+# Frontend dependencies  
+streamlit
+langchain-anthropic
