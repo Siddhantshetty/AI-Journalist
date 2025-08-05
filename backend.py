@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException, File, Response
+from fastapi.middleware.cors import CORSMiddleware 
 from fastapi.responses import FileResponse
 import os
 from pathlib import Path
@@ -11,6 +12,14 @@ from reddit_scraper import scrape_reddit_topics
 
 app = FastAPI()
 load_dotenv()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.post("/generate-news-audio")
