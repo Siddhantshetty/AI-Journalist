@@ -1,12 +1,10 @@
 Here’s your fully updated project README, tailored for your new app name **NewsBlitz** and GitHub repo `Siddhantshetty/AI-Journalist`:
 
----
 
 # **NewsBlitz – Lightning-Fast AI Journalist** ⚡
 
 Your personal AI-powered news analyst that strikes fast — scraping headlines, reading Reddit reactions, and delivering rich audio briefings. *No scroll, no stress — just stories.*
 
----
 
 ### 🚀 FEATURES
 
@@ -16,7 +14,6 @@ Your personal AI-powered news analyst that strikes fast — scraping headlines, 
 * 🔊 Converts summaries into natural audio with ElevenLabs
 * ⚡ Real-time updates via Bright Data’s Model Context Protocol (MCP)
 
----
 
 ### 🧰 PREREQUISITES
 
@@ -24,7 +21,6 @@ Your personal AI-powered news analyst that strikes fast — scraping headlines, 
 * [Bright Data](https://brightdata.com) account
 * [ElevenLabs](https://elevenlabs.io) account
 
----
 
 ### ⚡ QUICK START
 
@@ -65,7 +61,6 @@ ELEVENLABS_API_KEY="your_text_to_speech_key"
 * Enable browser emulation
 * Copy keys into your `.env`
 
----
 
 ### 🧪 RUNNING NEWSBLITZ
 
@@ -81,7 +76,6 @@ pipenv run python backend.py
 pipenv run streamlit run frontend.py
 ```
 
----
 
 ### 📁 PROJECT STRUCTURE
 
@@ -98,7 +92,6 @@ pipenv run streamlit run frontend.py
 └── requirements.txt     # Alternative deps
 ```
 
----
 
 ### 📝 NOTES
 
@@ -106,17 +99,13 @@ pipenv run streamlit run frontend.py
 * Reddit scraping uses real browser emulation (not simple HTTP)
 * Keep your `.env` secure — *ninjas and journalists never reveal their sources*
 
----
 
 ### 📞 SUPPORT
 
 * Open an issue: [GitHub Issues](https://github.com/Siddhantshetty/AI-Journalist/issues)
 * Bright Data support: [brightdata.com/support](https://brightdata.com/support)
 
----
 
 > *“In a world drowning in headlines, be the one who listens — fast.”* 📰⚡
 
----
 
-Let me know if you’d like a logo, a badge setup (e.g. GitHub stars/forks), or a portfolio-style landing page!
